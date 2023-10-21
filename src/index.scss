@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+@font-face {
+  font-family: "Bungee Shade";
+  src: url("../Bungee_Shade/BungeeShade-Regular.ttf");
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url("../Orbitron/Orbitron-VariableFont_wght.ttf");
+}
+@mixin btn($btn-color: #ffc300) {
+  outline: none;
+  font-family: "Orbitron";
+  background: $btn-color;
+  border-radius: 3px;
+}
+
+.input {
+  font-family: "Roboto";
+}
+
+.btn {
+  @include btn;
+}
+
+.hangManDisp {
+  position: relative;
+  right: 24em;
+}
+.gameWord {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2em;
+}
+
+.container {
+  margin: auto;
+  width: 365px;
+  text-align: center;
+}
+
+.title {
+  font-family: "Bungee Shade", sans-serif;
+  font-size: 4em;
+}
+
+.p {
+  font-family: "Roboto";
+}
